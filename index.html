@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <img src="./assets/logo.png" alt="" class="logo" />
+    <div class="container">
+      <h1 class="heading">BUDGET TRACKER</h1>
+
+      <div class="top-expense">
+        <div class="inps">
+          <input
+            type="text"
+            placeholder="Source"
+            name=""
+            id="inpsource"
+            class="inp-source"
+          />
+          <input
+            type="number"
+            placeholder="Amount"
+            name=""
+            id="inpamount"
+            class="inp-amount"
+          />
+        </div>
+
+        <div class="btns">
+          <button id="add-income" class="btn">Add Income</button>
+          <button id="add-expense" class="btn">Add Expense</button>
+        </div>
+      </div>
+
+      <div class="incdisplay">
+        <div class="end-display">
+          <h4 class="heading-2">Incomes</h4>
+        </div>
+        <div id="income-display"></div>
+      </div>
+
+      <div class="expdisplay">
+        <div class="end-display">
+          <h4 class="heading-2">Expenses</h4>
+        </div>
+        <div id="expense-display"></div>
+      </div>
+
+      <div class="end">
+        <div class="end-1">
+          <div class="inc-tamount"></div>
+          <div class="exp-tamount"></div>
+        </div>
+
+        <div class="accbalance"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
