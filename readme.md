@@ -1,10 +1,14 @@
 # Budget Tracker
 
-This is a budget tracker app developed using html, css and javascript which takes your incomes and expenses and shows total incomes, total expenses and account balance.
+This is a budget tracker web app developed using html, css and javascript which takes your incomes and expenses and shows total income, total expense and account balance.
 
 ![html](https://user-images.githubusercontent.com/109405477/193323207-87346e49-791a-4c7b-a9cd-26aec55d5f1f.svg) ![css](https://user-images.githubusercontent.com/109405477/193323244-ffa3a02a-584d-4fe3-a861-827a0202818c.svg) ![js](https://user-images.githubusercontent.com/109405477/193323275-7ff8faa7-26e3-4942-8b57-b6e9ed660cd3.svg)
 
 ## Video
+
+
+https://user-images.githubusercontent.com/109405477/195839187-0c2fb3a1-3685-4cab-b393-3640168e8541.mp4
+
 
 **Check it out at : https://budgettrackernow.netlify.app/**
 
